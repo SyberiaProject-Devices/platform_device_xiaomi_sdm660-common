@@ -493,5 +493,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# GoogleCamera
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
